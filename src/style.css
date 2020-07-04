@@ -1,0 +1,56 @@
+.bg-black {
+  background-image: linear-gradient(to bottom right, #141416, #464647);
+}
+
+.bg-orange {
+  background-color: #f73212;
+  color: #ffffff;
+}
+.text-orange {
+  color: #f73212;
+}
+
+.bordering-right {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.bordering-left {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.bordering {
+  border-radius: 50px;
+}
+
+.bg-gray {
+  background-color: #393939;
+  color: #fff;
+}
+
+div {
+  font-family: 'MuseoModerno', cursive;
+}
+
+.cardColor {
+  background-color: #141518;
+  border-radius: 20px;
+}
+.cardColor:hover {
+  border-radius: 20px;
+
+  background-color: #2a2a2a;
+  outline: none;
+
+  border-color: #f73212;
+  box-shadow: 10px;
+}
+.quantity:focus {
+  border-color: #f73212;
+  box-shadow: 10px;
+  outline: none;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
